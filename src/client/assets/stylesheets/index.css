@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    background-image: url('../images/race_s.jpg');
+    background-image: url('../images/bg_s.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -98,7 +98,7 @@ footer {
 /* -------------------  TABLET  --------------------- */
 @media (min-width: 768px) {
     header {
-        background-image: url('../images/race_m.jpg');
+        background-image: url('../images/bg_m.jpg');
         height: 100vh;
     }
 }
@@ -107,7 +107,7 @@ footer {
 
 @media (min-width: 1224px) {
     header {
-        background-image: url('../images/race_l.jpg');
+        background-image: url('../images/bg_l.jpg');
         height: 700px;
     }
 }
@@ -116,7 +116,7 @@ footer {
 
 @media (min-width: 1824px) {
     header {
-        background-image: url('../images/race_xl.jpg');
+        background-image: url('../images/bg_xl.jpg');
         height: 700px;
     }
 }

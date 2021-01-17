@@ -2,7 +2,7 @@
 
 /* -------------------  MOBILE  --------------------- */
 header {
-  background-image: url('https://via.placeholder.com/1150');
+    background-image: url('../images/bg_s.jpg');
 }
 
 main#two-columns {
@@ -31,15 +31,23 @@ section#accelerate button {
 
 /* -------------------  TABLET  --------------------- */
 @media (min-width: 768px) {
-
+    header {
+        background-image: url('../images/bg_m.jpg');
+    }
 }
 
 /* -------------------  DESKTOP  -------------------- */
 
 @media (min-width: 1224px) {
+    header {
+        background-image: url('../images/bg_l.jpg');
+    }
 }
 
 /* -------------------  LARGE SCREENS  -------------- */
 
 @media (min-width: 1824px) {
+    header {
+        background-image: url('../images/bg_xl.jpg');
+    }
 }
